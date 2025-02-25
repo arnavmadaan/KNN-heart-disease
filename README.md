@@ -33,8 +33,8 @@ This project demonstrates the application of machine learning to predict heart d
 ## Installation
 Clone this repository and install the required dependencies.
 ```sh
-$ git clone https://github.com/your-username/Heart-Disease-Predictor.git
-$ cd Heart-Disease-Predictor
+$ git clone https://github.com/arnavmadaan/KNN-heart-disease.git
+$ cd KNN-heart-disease
 $ pip install -r requirements.txt
 ```
 ## Usage
