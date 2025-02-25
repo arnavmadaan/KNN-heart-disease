@@ -36,3 +36,32 @@ Clone this repository and install the required dependencies.
 $ git clone https://github.com/your-username/Heart-Disease-Predictor.git
 $ cd Heart-Disease-Predictor
 $ pip install -r requirements.txt
+```
+## Usage
+
+1. Open the Jupyter Notebook:
+```sh
+    $ jupyter notebook
+```
+2. Run the notebook cells sequentially to:
+```sh
+        Load the dataset
+        Preprocess the data
+        Train the KNN model
+        Evaluate model performance
+        Predict heart disease risk based on user input
+```
+## Model Implementation
+
+Data Preprocessing: Standardization using StandardScaler.
+Classification Model: K-Nearest Neighbors (KNN) with n_neighbors=6.
+User Input Prediction: The user is prompted to enter medical details, and the model predicts the risk.
+
+## Results
+
+The model achieves good accuracy in predicting heart disease risk based on the provided medical dataset. More evaluation metrics such as confusion matrix, precision-recall, and ROC curve can be added for deeper insights.
+
+
+
+
+
